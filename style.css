@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #252525;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.img1 {
+  height: 4.5vh;
+  width: 2.5vw;
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+}
+.logo1 {
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 2.5rem;
+}
+a {
+  text-decoration: none;
+}
+.navHeader {
+  width: 11vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  right: 2.5rem;
+}
+.logoinsta {
+  height: 3vh;
+  width: 2vw;
+}
+.logoyt {
+  height: 3vh;
+  width: 2.7vw;
+}
+.logowpp {
+  height: 3vh;
+  width: 2vw;
+}
+
+.primeiraseção {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #eb4a7b;
+  background-image: url("./imagens/cao1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.prg1 {
+  width: 35vw;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.bannerprincipal {
+  display: flex;
+  width: 25vw;
+  height: 75vh;
+  position: relative;
+}
+.imgsobreposta {
+  display: flex;
+  width: 13vw;
+  height: 18vh;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.segundaseção {
+  display: flex;
+  height: 90vh;
+  padding-top: 10vh;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(80deg, #fff, #b9b0b0);
+}
+
+.título1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1vh;
+  color: #252525;
+}
+
+.prg2 {
+  font-size: 2rem;
+  margin-bottom: 2vh;
+  color: #252525;
+}
+
+.textodaseção2 {
+  display: flex;
+  width: 40vw;
+  margin-bottom: 4vh;
+  flex-direction: column;
+}
+
+.botão1 {
+  width: 17vw;
+  height: 8vh;
+  margin-top: 4vh;
+  border-radius: 40px;
+  border: none;
+  transition: 0.5s;
+  background-color: #252525;
+}
+
+.linkbotão {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.botão1:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px #252525;
+}
+
+.bannercãoleão {
+  display: flex;
+  width: 40vw;
+  height: 80vh;
+}
